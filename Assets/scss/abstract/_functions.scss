@@ -1,0 +1,6 @@
+@use "../abstract/variable" as var;
+
+@function theme-color($color){
+    @return map-get(var.$theme-color, $color);
+
+}

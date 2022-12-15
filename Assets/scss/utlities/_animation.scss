@@ -1,0 +1,18 @@
+@keyframes color-change{
+  0%{
+      color:rgb(200, 61, 14);
+  }
+  25%{
+    color:rgb(160, 46, 11)
+      }
+  50%{
+      color:rgb(32, 151, 48)
+  }
+  75%{
+    color:green;
+  }
+  
+  100%{
+      color:rgb(10, 85, 12);
+  }
+}
