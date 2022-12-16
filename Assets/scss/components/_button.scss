@@ -2,6 +2,7 @@
 @use "../abstract/functions" as func;
 
 .btn {
+    cursor: pointer;
     padding: 0.8rem 1.6rem;
     border-radius: 6px;
     line-height: 1;
@@ -11,13 +12,23 @@
     outline: none;
     display: inline-block;
     &-primary {
+        @extend.btn;
 
         background-color: func.theme-color("primary");
-        color: #fff;
+        color:#fff;
 
         &:hover {
             background-color: func.theme-color("primary-hover");
         }
-
     }
+&-primary-outline{
+    @extend .btn;
+    background-color: #fff;
+border:2px solid func.theme-color("primary");
+color:func.theme-color("primary");
+&:hover{
+    background-color: func.theme-color("primary");
+    color: #fff;
+}
+} 
 }

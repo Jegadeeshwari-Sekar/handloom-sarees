@@ -20,6 +20,7 @@
   &--menu__item>a {
     margin-right: 5rem;
     font-size: 12px;
+    font-weight: 600;
     color: $font-color;
     transition: 200ms;
   }
@@ -41,11 +42,11 @@
   text-align: center;
   border: 2px solid black;
   font-family: $font-style;
+  color: darkred;
 
 
   &--product {
     text-align: center;
-    text-decoration: overline;
   }
 
   &--menus {
@@ -54,12 +55,17 @@
 
   }
 
-  &--menus__item>a {
-    font-size: 11px;
+  &--menus__item {
+    font-size: 12px;
     padding: 1rem;
     margin-right: 7rem;
     align-items: center;
     color: $font-color;
+    &>a{
+      color: #000;
+      font-weight: 600;
+
+    }
   }
 
   a:hover {

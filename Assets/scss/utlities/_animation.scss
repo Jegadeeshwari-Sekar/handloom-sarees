@@ -3,7 +3,7 @@
       color:rgb(200, 61, 14);
   }
   25%{
-    color:rgb(160, 46, 11)
+    color:rgb(160, 46, 11);
       }
   50%{
       color:rgb(32, 151, 48)
@@ -14,5 +14,13 @@
   
   100%{
       color:rgb(10, 85, 12);
+  }
+}
+@keyframes box-shape{
+  0%{
+    transform: rotate(0deg);
+  }
+  100%{
+    transform: rotate(100deg);
   }
 }

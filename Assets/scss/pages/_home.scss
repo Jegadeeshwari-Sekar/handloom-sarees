@@ -1,0 +1,42 @@
+@use "../abstract/functions" as func;
+@use "../abstract/variable" as *;
+
+.hero-area {
+
+    padding: 8rem 10rem;
+    text-align: center;
+    display: block;
+    
+
+
+    &--text {
+        padding: 1.8rem;
+        color: brown;
+         font-size: 12px;
+        font-weight: bold;
+        font-family: Tiemann, serif;
+        letter-spacing: normal;
+        text-rendering: optimizeSpeed;
+    }
+    
+
+    &--para {
+        font-family: Tiemann, serif;
+        font-size: 40px;
+        color: func.theme-color("primary");
+        font-weight: 400;
+        line-height: 53px;
+        letter-spacing: normal;
+        text-rendering: optimizeSpeed;
+    }
+
+
+    h6 {
+        font-size: 15px;
+        text-transform: lowercase;
+        font-family: Tiemann, serif;
+        margin-bottom: 2rem;
+
+
+    }
+}

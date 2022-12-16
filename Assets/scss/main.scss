@@ -1,10 +1,15 @@
 //Base
 @use "./basee/rest";
 @use "./basee/global";
-// utlites
-@use "./utlities/animation";
 
 //components
 @use "./components/button";
 //layout
 @use "./layout/header";
+@use "./layout/background-shapes";
+//pages
+@use "./pages/home";
+// utlites
+@use "./utlities/animation";
+@use "./utlities/spacing";
+
